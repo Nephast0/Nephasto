@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
+  <diagram name="Página-1" id="TNrKjXQ0GfE4AtVbd688">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Cliente" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="185" width="112" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Web" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="279" y="186" width="47" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Administrador" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="488" y="8" width="151" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Almacén" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="838" y="87" width="122" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Banco" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="848" y="244" width="103" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Realiza pedido" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=-0.01;entryY=0.5;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Procesa pedido" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="84" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Verifica stock" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.44;entryX=0;entryY=0.11;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="739" y="62" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Verifica pago" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0;entryY=0.3;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="739" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Envía productos" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=0.99;entryX=0.98;entryY=0.48;" edge="1" parent="1" source="5" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="739" y="206" />
+              <mxPoint x="406" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Confirma pago" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.51;entryX=0.98;entryY=0.78;" edge="1" parent="1" source="6" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Actualiza inventario" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.56;entryX=0;entryY=0.45;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="739" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
